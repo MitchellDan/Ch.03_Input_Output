@@ -22,4 +22,5 @@ semweightgrade = int(semgrade) * semweight
 finalweightgrade = int(finalgrade) * int(weight) *0.01
 
 overall = semweightgrade + finalweightgrade
+overall = round(overall,1)
 print ("Your overall grade is " +str(overall))
